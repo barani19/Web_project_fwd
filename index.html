@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 15px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      height: 100vh;
+      width: 100%;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color:  hsl(212, 45%, 89%)
+    }
+    @media screen and (min-width: 350px) {
+      .out{
+      display: flex;
+      flex-direction: column;
+      
+      align-items: center;
+    }
+    .out{
+       border-radius: 30px;
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 35px;
+       height: 500px;
+       width: 300px;
+       background-color: white;
+    }
+    img{
+      border-radius: 20px;
+    }
+    .darkfo{
+      font-size: 25px;
+      font-weight: 700;
+      text-align: center;
+    }
+    .text{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    .desfo{
+      font-size: 18px;
+      font-weight: 100;
+      opacity: 0.5;
+      text-align: center;
+    }
+    }
+   
+  </style>
+</head>
+<body>
+
+<div class="out">
+  <div class="imd">
+    <img src="images/image-qr-code.png" alt="" height="100%" width="100%">
+  </div>
+  <div class="text">
+  <div class="darkfo">
+    Improve your front-end skills by building projects
+  </div>
+  <div class="desfo">
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+</div>
+</div>
+
+  <br><br>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mr.Barani Jii</a>.
+  </div>
+</body>
+</html>
